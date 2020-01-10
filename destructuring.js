@@ -23,6 +23,10 @@ var carDetails = {
 
 //Code Here
 
+var{color,make,model,year}= carDetails;
+//console.log(color, make, model, year);
+
+
 
 
 ////////// PROBLEM 2 //////////
@@ -35,7 +39,8 @@ var carDetails = {
 
 function greeting( obj ) {
   //Code Here
-  
+ 
+  console.log
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
@@ -100,3 +105,26 @@ function greeting( obj ) {
 //Code Here
 
 
+
+  function numberGroups({a,b,c}){
+
+    if(a.length>b.length && a.length>c.length) {
+      return a;
+    } else if(b.length> a.length && b.length>c.length) {
+      return b;
+    }else {
+      return c;
+    }
+    
+  // let arrays= [a,b,c]
+  // let longest= []
+
+  // arrays.forEach((array, index)=>{
+  //   if (array.length)> longest.length){
+  //     longest.push(arrays[index]);
+
+  //   }
+  // })
+  return longest;
+}
+console.log(numberGroups(obj));
